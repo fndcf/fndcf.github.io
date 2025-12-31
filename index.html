@@ -40,24 +40,41 @@
 
       <div>
         <p class="projetos-introducao">Desenvolvo soluções web completas, do design à implementação, focando em experiência do usuário e performance.</p>
+        <li class="projetos-lista">
+          <span class="projetos-tipo">Aplicação Web Full-Stack</span>
+          <h3 class="projetos-empresa">Dupley - Sistema de Gerenciamento de Torneios | https://torneio-challenge.web.app</h3>
+          <span class="projetos-texto">Desenvolvimento full-stack de plataforma para gerenciamento de torneios esportivos com arquitetura escalável e suporte a multi-tenancy.
+            <br>Arquitetei backend em Node.js com Express seguindo princípios SOLID, utilizando Repository Pattern, Strategy Pattern e Dependency Injection
+            <br>Desenvolvi frontend em React 18 com TypeScript, implementando custom hooks para separação de responsabilidades e Context API para state management
+            <br>Implementei 4 formatos de torneio com algoritmos de geração de grupos balanceados, sistema de desempate multi-critério e geração automática de chaves eliminatórias
+            <br>Alcancei 90%+ de cobertura de testes com mais de 2600 testes unitários no frontend e mais de 400 no backend utilizando Jest
+            <br>Configurei infraestrutura serverless no Firebase com Firestore, Authentication, Cloud Functions (2nd Gen) e Hosting com CDN
+            <br><strong>Stack:</strong> React, TypeScript, Node.js, Express, Firebase (Firestore, Auth, Functions, Hosting), Styled Components, Zod, Jest, Vite.</span>
+        </li>
+        <li class="projetos-lista">
+          <span class="projetos-tipo">Sistema Web Full-Stack</span>
+          <h3 class="projetos-empresa">FLAMA - Sistema de Gestão de Orçamentos | https://flama-ita.web.app</h3>
+          <span class="projetos-texto">Desenvolvimento full-stack de plataforma para gestão de orçamentos no setor de proteção contra incêndio, com foco em produtividade e controle financeiro.
+            <br>Arquitetei backend em Node.js com Express e TypeScript, utilizando Repository Pattern, Service Layer e Event Bus para comunicação assíncrona entre serviços
+            <br>Desenvolvi frontend em React 18 com TypeScript, implementando custom hooks, React Query com useInfiniteQuery para paginação infinita, geração de PDFs profissionais com React PDF Renderer e dashboard com gráficos interativos (Recharts)
+            <br>Integrei API externa (BrasilAPI) para preenchimento automático de dados de clientes via CNPJ, reduzindo tempo de cadastro
+            <br>Implementei sistema de orçamentos com versionamento, múltiplos status, parcelamento com cálculo de juros e entrada personalizada, monitoramento automático de prazos via palavras-chave e relatórios de lucratividade
+            <br>Alcancei ~98% de cobertura no backend e ~94% no frontend utilizando Jest e Vitest
+            <br>Configurei infraestrutura serverless no Firebase com Firestore, Authentication, Cloud Functions Gen 2 (Cloud Run) e Hosting com CDN
+            <br><strong>Stack:</strong> React, TypeScript, Node.js, Express, Firebase (Firestore, Auth, Functions, Hosting), Styled Components, Zod, Jest, Vite.</span>
+        </li>
         <ul class="projetos-display">
           <li class="projetos-lista">
             <span class="projetos-tipo">Página Web</span>
-            <h3 class="projetos-empresa">AgPro International</h3>
-            <span class="projetos-texto">Modernização completa de website institucional internacional de empresa do setor agrícola. Implementei sistema multilíngue (EN/ES/PT) com troca dinâmica de idiomas, redesenho da arquitetura front-end e formulário de envio de e-mail automatizado com validação em tempo real. A atualização ampliou o alcance comercial da empresa e melhorou significativamente a experiência do usuário.
-              <br><strong>Stack:</strong> Angular, TypeScript, Tailwind CSS, PHP e Hostgator.</span>
-          </li>
-          <li class="projetos-lista">
-            <span class="projetos-tipo">Aplicação Web Full-Stack</span>
-            <h3 class="projetos-empresa">Rei da Praia - Gestão de Torneios de Beach Tennis</h3>
-            <span class="projetos-texto">Desenvolvimento de plataforma completa para gerenciamento de torneios esportivos. Criei sistema de sorteio automático com validações inteligentes, gerenciamento de fase de grupos e mata-mata (quartas, semi e final), ranking dinâmico de jogadores e perfis individuais com estatísticas. Implementei arquitetura MVC com banco de dados relacional e interface responsiva, proporcionando experiência fluida em dispositivos móveis e desktop.
-              <br><strong>Stack:</strong> Python, Flask, SQLAlchemy, PostgreSQL, HTML, CSS, JavaScript.</span>
-          </li>
-          <li class="projetos-lista">
-            <span class="projetos-tipo">Sistema Web Full-Stack</span>
-            <h3 class="projetos-empresa">Pirâmide - Ranking Dinâmico de Esportes</h3>
-            <span class="projetos-texto">Plataforma para gerenciamento de ranking de duplas com sistema de desafios automatizado. Desenvolvi fluxo completo de desafios (aceitar, propor datas, agendar, jogar, confirmar resultado), scheduler para expiração automática, controle de penalidades, estatísticas detalhadas e dashboards separados para administradores e jogadores. Sistema impede múltiplos desafios simultâneos e atualiza rankings dinamicamente após confirmação de resultados.
-              <br><strong>Stack:</strong> Angular, TypeScript, Firebase, Reactive Forms, SCSS.</span>
+            <h3 class="projetos-empresa">AgPro International - Website Institucional | https://agprointernational.com</h3>
+            <span class="projetos-texto">Desenvolvimento de website institucional multilíngue para empresa americana especializada em soluções agroindustriais (suínos, aves, armazenamento de grãos e equipamentos).
+              <br>Desenvolvi frontend em Angular 20 com TypeScript e Tailwind CSS, utilizando standalone components, Angular Signals para state management e OnPush Change Detection para otimização de performance
+              <br>Implementei sistema de internacionalização com Transloco suportando 3 idiomas (EN/PT/ES), com carregamento dinâmico de traduções e persistência de preferência em localStorage
+              <br>Arquitetei serviço de SEO customizado com canonical URLs, Open Graph, Twitter Cards e hreflang tags sincronizados com mudanças de idioma
+              <br>Configurei PWA com Service Worker para caching inteligente: prefetch de arquivos críticos, lazy loading de assets e estratégia de freshness para i18n
+              <br>Integrei formulário de contato com backend PHP hospedado na HostGator para envio de emails, com tratamento de erros e feedback visual ao usuário
+              <br>Implementei GlobalErrorHandler customizado, View Transitions API para navegação fluida e Image Carousel reativo com RxJS
+              <br><strong>Stack:</strong> Angular 20, TypeScript, Tailwind CSS, SCSS, Transloco, RxJS, Jasmine, Karma, PWA/Service Workers.</span>
           </li>
         </ul>
       </div>
